@@ -141,7 +141,7 @@ const Navbar = ({rtlurl}) => {
                         {/* <!-- Logo  --> */}
                         <Link href="/" className="logo">
                           <img
-                            src="/images/logo.png"
+                            src="/images/logo-redtuf-nav1.png"
                             alt="image"
                             className="logo__img logo__dark"
                           />
@@ -171,7 +171,7 @@ const Navbar = ({rtlurl}) => {
                 {/* <!-- Logo --> */}
                 <Link href="/" className="logo">
                   <img
-                    src="/images/logo.png"
+                    src="/images/logo-redtuf-nav1.png"
                     alt="image"
                     className="logo__img logo__dark"
                   />

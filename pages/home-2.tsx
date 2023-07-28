@@ -1,25 +1,22 @@
-import About from "@/components/home_2/About";
-import AboutCompany from "@/components/home_2/AboutCompany";
-import Brand from "@/components/home_2/Brand";
-import Consult from "@/components/home_2/Consult";
-import Features from "@/components/home_2/Features";
-import Footer from "@/components/home_2/Footer";
-import Hero from "@/components/home_2/Hero";
-import Navbar from "@/components/home_2/Navbar";
-// import Pricing from "@/components/home_2/Pricing";
-import Service from "@/components/home_2/Service";
-import ServiceTab from "@/components/home_2/ServiceTab";
-import Team from "@/components/home_2/Team";
-import Testimonail from "@/components/home_2/Testimonail";
-import Workprocess from "@/components/home_2/Workprocess";
 import Head from "next/head";
+import Navbar from "@/components/home_1/Navbar";
+import Hero from "@/components/home_1/Hero";
+import Service from "@/components/home_1/Service";
+import About from "@/components/home_1/About";
+import Tools from "@/components/home_1/Tools";
+import Counter from "@/components/home_1/Counter";
+import Team from "@/components/home_1/Team";
+import Cta from "@/components/home_1/Cta";
+import Latestwork from "@/components/home_1/Latestwork";
+import Customer from "@/components/home_1/Customer";
+import Blog from "@/components/home_1/Blog";
+import Footer from "@/components/home_1/Footer";
 import { useEffect, useState } from "react";
 
-const home_2 = () => {
+export default function Home() {
   const [scrolled, setScrolled] = useState(false);
 
   useEffect(() => {
-    document.documentElement.setAttribute("dir", 'ltr');
     document.addEventListener("scroll", () => {
       if (window.scrollY > 100) {
         setScrolled(true);
@@ -33,57 +30,39 @@ const home_2 = () => {
   };
   return (
     <>
-    <Head>
+      <Head>
         <title>Redtuf - IT Solution & Services</title>
-        <meta name="description" content=" IT Solution & Services" />
+        <meta name="description" content="Redtuf - IT Solution & Services" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <div
-        onClick={backtoTop}
-        className={`back-to-top ${scrolled ? "d-block" : "d-none"}`}>
-        <span className="back-top">
-          <span className="material-symbols-outlined mat-icon fw-300 d-grid">
-            {" "}
-            keyboard_double_arrow_up{" "}
+      <>
+        <div
+          onClick={backtoTop}
+          className={`back-to-top ${scrolled ? "d-block" : "d-none"}`}>
+          <span className="back-top">
+            <span className="material-symbols-outlined mat-icon fw-300 d-grid">
+              {" "}
+              keyboard_double_arrow_up{" "}
+            </span>
           </span>
-        </span>
-      </div>
-      {/* Navbar Section */}
-      <Navbar />
-      {/* Hero Section */}
-      <Hero />
-      {/* Brand Section */}
-      <Brand />
-      {/* Service section */}
-      <Service />
-      {/* About Section */}
-      <About />
-      {/* <!-- About Company 3 --> */}
-      <AboutCompany />
-      {/* <!-- Consult Section  --> */}
-      <Consult />
-      {/* <!-- Features section --> */}
-      <Features />
-      {/*  Work Process Section  --> */}
-      <Workprocess />
-      {/* <!-- Service Section  --> */}
-      <ServiceTab />
-      {/* <!-- Pricing Section  --> */}
+        </div>
 
-      {/*Hide this sec <Pricing /> */}
-
-      {/*  Team Section  --> */}
-      <Team />
-      {/*  Testimonial Section  --> */}
-      <Testimonail />
-      {/*  Footer --> */}
-      <Footer />
+        <Navbar />
+        <Hero />
+        <Service />
+        <About />
+        <Tools />
+        <Counter />
+        <Team />
+        <Cta />
+        <Latestwork />
+        <Customer />
+        <Blog />
+        <Footer />
+      </>
     </>
   );
-};
+}
 
-export default home_2;
-home_2.getLayout = function getLayout(page) {
-  return <>{page}</>;
-};
+Home.getLayout = function getLayout(page: React.ComponentType<any>) { return <>{page}</>; };

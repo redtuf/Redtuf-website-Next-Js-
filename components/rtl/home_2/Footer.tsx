@@ -14,7 +14,7 @@ const Footer = () => {
           <div className="row g-4 justify-content-xl-between">
             <div className="col-md-6 col-xl-5">
               <Link href="/rtl" className="logo mb-6">
-                <img src="/images/logo-color.png" alt="image" className="logo__img" />
+                <img src="/images/logo-redtuf-nav1.png" alt="image" className="logo__img" />
               </Link>
               <p className="clr-light t-short-para"> نحن نتعامل مع العوامل تكنولوجيا المعلومات والاستشارات تعزز نجاح الأعمال. نحن نقدم مجموعة واسعة للخدمات التكنولوجية. </p>
             </div>
