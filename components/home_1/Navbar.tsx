@@ -44,7 +44,7 @@ const Navbar = () => {
                 {/* <!-- Logo --> */}
                 <Link href="/" className="logo">
                   <img
-                    src="/images/logo-redtuf-nav1.png"
+                    src="/images/logo-redtuf1-new.png"
                     alt="image"
                     className="logo__img logo__dark"
                   />

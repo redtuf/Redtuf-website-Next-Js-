@@ -65,7 +65,7 @@ const Footer = () => {
               <div className="col-md-6 col-xl-3 order-md-1">
                 <Link href="/" className="logo mb-6">
                   <img
-                    src="/images/logo-redtuf-logo1.png"
+                    src="/images/logo-redtuf1-new.png"
                     alt="image"
                     className="logo__img"
                   />
