@@ -29,7 +29,7 @@ const Mobilemenu = () => {
         <div className="mobile-menu__head">
           <Link href="/" className="mobile-menu__logo">
             <img
-              src="/images/logo-redtuf2-logo2.png"
+              src="/images/redtuf-logo1.png"
               alt="image"
               className="mobile-menu__logo-img"
             />
