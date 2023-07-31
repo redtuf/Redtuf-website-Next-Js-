@@ -187,7 +187,7 @@ const Navbar = () => {
                 {/* <!-- Logo End --> */}
                 <ul className="list primary-menu__list">
                   <li>
-                    <Link href="/home-2" className="primary-menu__link">
+                    <Link href="/" className="primary-menu__link">
                       Home
                     </Link>
                     {/* <ul className="list sub-menu">

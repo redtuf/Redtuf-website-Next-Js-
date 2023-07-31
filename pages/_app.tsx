@@ -21,7 +21,7 @@ export default function App({ Component, pageProps }: AppProps) {
         {isLoading ? (
           <div className="preloader">
             <div className="preloader__img">
-              <img src="/images/redtuf-logo1.png" alt="image" />
+              <img src="/images/loader-icon.png" alt="image" />
             </div>
           </div>
         ) : null}

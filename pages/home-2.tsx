@@ -34,7 +34,7 @@ export default function Home() {
         <title>Redtuf - IT Solution & Services</title>
         <meta name="description" content="Redtuf - IT Solution & Services" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon-rf.ico" />
       </Head>
       <>
         <div

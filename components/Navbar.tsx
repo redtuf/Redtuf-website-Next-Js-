@@ -171,7 +171,7 @@ const Navbar = ({rtlurl}) => {
                 {/* <!-- Logo --> */}
                 <Link href="/" className="logo">
                   <img
-                    src="/images/logo-redtuf-nav1.png"
+                    src="/images/redtuf-logo1.png"
                     alt="image"
                     className="logo__img logo__dark"
                   />
@@ -184,7 +184,7 @@ const Navbar = ({rtlurl}) => {
                 {/* <!-- Logo End --> */}
                 <ul className="list primary-menu__list">
                   <li>
-                    <Link href="/home-2" className="primary-menu__link">
+                    <Link href="/" className="primary-menu__link">
                       Home
                     </Link>
                     {/* <ul className="list sub-menu">
