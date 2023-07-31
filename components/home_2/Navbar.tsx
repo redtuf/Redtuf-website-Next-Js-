@@ -144,7 +144,7 @@ const Navbar = () => {
                         {/* <!-- Logo  --> */}
                         <Link href="/" className="logo">
                           <img
-                            src="/images/logo-redtuf1-new.png"
+                            src="/images/logo-redtuf2-logo2.png"
                             alt="image"
                             className="logo__img logo__dark"
                           />
@@ -174,7 +174,7 @@ const Navbar = () => {
                 {/* <!-- Logo --> */}
                 <Link href="/" className="logo">
                   <img
-                    src="/images/logo-redtuf1-new.png"
+                    src="/images/logo-redtuf2-logo2.png"
                     alt="image"
                     className="logo__img logo__dark"
                   />
