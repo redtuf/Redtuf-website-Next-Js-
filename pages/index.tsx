@@ -1,6 +1,6 @@
 import About from "@/components/home_2/About";
 import AboutCompany from "@/components/home_2/AboutCompany";
-import Brand from "@/components/home_2/Brand";
+// import Brand from "@/components/home_2/Brand";
 import Consult from "@/components/home_2/Consult";
 import Features from "@/components/home_2/Features";
 import Footer from "@/components/home_2/Footer";
@@ -9,7 +9,7 @@ import Navbar from "@/components/home_2/Navbar";
 // import Pricing from "@/components/home_2/Pricing";
 import Service from "@/components/home_2/Service";
 import ServiceTab from "@/components/home_2/ServiceTab";
-import Team from "@/components/home_2/Team";
+// import Team from "@/components/home_2/Team";
 import Testimonail from "@/components/home_2/Testimonail";
 import Workprocess from "@/components/home_2/Workprocess";
 import Head from "next/head";
@@ -54,7 +54,9 @@ const home_2 = () => {
       {/* Hero Section */}
       <Hero />
       {/* Brand Section */}
-      <Brand />
+
+      {/* <Brand /> */}
+
       {/* Service section */}
       <Service />
       {/* About Section */}
@@ -74,7 +76,9 @@ const home_2 = () => {
       {/*Hide this sec <Pricing /> */}
 
       {/*  Team Section  --> */}
-      <Team />
+
+      {/* <Team /> */}
+
       {/*  Testimonial Section  --> */}
       <Testimonail />
       {/*  Footer --> */}

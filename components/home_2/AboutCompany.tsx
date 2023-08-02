@@ -141,7 +141,7 @@ const AboutCompany = () => {
                   </div>
                   <div className="group group-0">
                     <p className="clr-heading sm-text">Call for Help</p>
-                    <p className="clr-heading fw-md">+7 (903) 880-91-85</p>
+                    <p className="clr-heading fw-md">+91 9078500888</p>
                   </div>
                 </div>
               </div>

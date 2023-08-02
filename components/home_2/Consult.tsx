@@ -27,7 +27,7 @@ const Consult = () => {
                 <div
                   className="consult-section__content"
                   style={{
-                    backgroundImage: "url(/images/consulting-form-bg.png)",
+                    backgroundImage: "url(/images/consulting-form-bg-1.png)",
                   }}>
                   <div className="row justify-content-md-end">
                     <div className="col-lg-6">

@@ -271,142 +271,142 @@ const Navbar = () => {
                     <ul className="list mega-menu">
                       <li>
                         <span className="mega-menu__title">
-                          Information Details
+                        Web Design & Development
                         </span>
                         <ul className="list mega-menu__list">
                           <li>
                             <Link
-                              href="about-us-1"
+                              href="#"
                               className="mega-menu__link">
                               {" "}
-                              About Us{" "}
+                              Web Design{" "}
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="choose-us-1"
+                              href="#"
                               className="mega-menu__link">
                               {" "}
-                              Why Choose Us{" "}
+                              UI/UX Design{" "}
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="case-study-1"
+                              href="#"
                               className="mega-menu__link">
                               {" "}
-                              Case Study{" "}
+                              Web Application Developement{" "}
                             </Link>
                           </li>
                           <li>
-                            <Link href="facts-1" className="mega-menu__link">
+                            <Link href="#" className="mega-menu__link">
                               {" "}
-                              History & Facts{" "}
+                              Application Mentenance{" "}
                             </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <span className="mega-menu__title">Help & Support</span>
+                        <span className="mega-menu__title">Digital Marketing</span>
                         <ul className="list mega-menu__list">
                           <li>
-                            <Link href="faq-1" className="mega-menu__link">
+                            <Link href="#" className="mega-menu__link">
                               {" "}
-                              FAQ{" "}
+                              Social Media Marketing{" "}
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="help-center"
+                              href="#"
                               className="mega-menu__link">
                               {" "}
-                              Help Center{" "}
+                              SEO{" "}
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="getting-started"
+                              href="#"
                               className="mega-menu__link">
                               {" "}
-                              Getting Started{" "}
+                              Google Ads{" "}
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="help-center-details"
+                              href="#"
                               className="mega-menu__link">
                               {" "}
-                              Help Center Details{" "}
+                              E-Mail Service{" "}
                             </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <span className="mega-menu__title">Let's Connect</span>
+                        <span className="mega-menu__title">Cloud Developement</span>
                         <ul className="list mega-menu__list">
                           <li>
                             <Link
-                              href="case-study-details-1"
+                              href="#"
                               className="mega-menu__link">
                               {" "}
-                              Case Study Details{" "}
+                              SaaS Developement{" "}
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="leadership"
+                              href="#"
                               className="mega-menu__link">
                               {" "}
-                              Leadership Page{" "}
+                              Cloud Migration{" "}
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="leadership-page"
+                              href="#"
                               className="mega-menu__link">
                               {" "}
-                              Leadership Details{" "}
+                              Cloud Managed Service{" "}
                             </Link>
                           </li>
                           <li>
-                            <Link href="referral" className="mega-menu__link">
+                            <Link href="#" className="mega-menu__link">
                               {" "}
-                              Refferral{" "}
+                              iPaas and RPA{" "}
                             </Link>
                           </li>
                         </ul>
                       </li>
                       <li>
-                        <span className="mega-menu__title">Other Pages</span>
+                        <span className="mega-menu__title">Other Services</span>
                         <ul className="list mega-menu__list">
                           <li>
                             <Link
-                              href="pricing-plan-1"
+                              href="#"
                               className="mega-menu__link">
                               {" "}
-                              Pricing Plan{" "}
+                              App Developement{" "}
                             </Link>
                           </li>
                           <li>
-                            <Link href="error" className="mega-menu__link">
+                            <Link href="#" className="mega-menu__link">
                               {" "}
-                              404{" "}
-                            </Link>
-                          </li>
-                          <li>
-                            <Link
-                              href="coming-soon"
-                              className="mega-menu__link">
-                              {" "}
-                              Coming Soon{" "}
+                              Traning & Project Management{" "}
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="terms-condition"
+                              href="#"
                               className="mega-menu__link">
                               {" "}
-                              Terms & Condition{" "}
+                              Consulting{" "}
+                            </Link>
+                          </li>
+                          <li>
+                            <Link
+                              href="#"
+                              className="mega-menu__link">
+                              {" "}
+                              Resource Outsourcing{" "}
                             </Link>
                           </li>
                         </ul>

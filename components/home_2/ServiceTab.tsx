@@ -12,7 +12,7 @@ const ServiceTab = () => {
               We offer excellent IT services.
               </span>
               <h2 className="mt-5 mb-5 text-center">
-              implemented thousands of projects successfully throughout 20 countries
+              implemented hundreds of projects successfully throughout 10 countries
               </h2>
               <p className="text-center mx-auto max-text-70">
               We promise your success and happiness with our extensive IT products. It's easy and hassle-free to get tech support. We offer the most updated IT services.
