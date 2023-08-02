@@ -390,7 +390,7 @@ const Navbar = () => {
                           <li>
                             <Link href="#" className="mega-menu__link">
                               {" "}
-                              Traning & Project Management{" "}
+                              Training & Project Management{" "}
                             </Link>
                           </li>
                           <li>
