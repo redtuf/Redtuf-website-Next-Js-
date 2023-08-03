@@ -70,12 +70,12 @@ const Mobilemenu = () => {
           <div className="mobile-menu__center">
             <ul className="list mobile-menu__list">
               <li className={`${activeMenu =='Home' &&'is-active'}`}>
-                <Link href="#" className="mobile-menu__link has-sub"
+                <Link href="/" className="mobile-menu__link"
                 onClick={clickHandler}
                 >
                   Home
                 </Link>
-                <ul className={`list mobile-menu__sub ${activeMenu == 'Home' && 'd-block'}`}>
+                {/* <ul className={`list mobile-menu__sub ${activeMenu == 'Home' && 'd-block'}`}>
                   <li>
                     <Link href="/" className="mobile-menu__sub-link" onClick={openMobileMenu}>
                       {" "}
@@ -100,13 +100,13 @@ const Mobilemenu = () => {
                       Home 4{" "}
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
               </li>
               <li className={`${activeMenu =='Blog' &&'is-active'}`}>
-                <Link href="#" onClick={clickHandler} className="mobile-menu__link has-sub">
+                <Link href="/" onClick={clickHandler} className="mobile-menu__link ">
                   Blog
                 </Link>
-                <ul className={`list mobile-menu__sub ${activeMenu == 'Blog' && 'd-block'}`}>
+                {/* <ul className={`list mobile-menu__sub ${activeMenu == 'Blog' && 'd-block'}`}>
                   <li>
                     <Link
                       href="blog-page-1"
@@ -123,13 +123,13 @@ const Mobilemenu = () => {
                       Blog Details{" "}
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
               </li>
               <li className={`${activeMenu =='Service' &&'is-active'}`}>
-                <Link href="#" onClick={clickHandler} className="mobile-menu__link has-sub">
+                <Link href="#" onClick={clickHandler} className="mobile-menu__link ">
                   Service
                 </Link>
-                <ul className={`list mobile-menu__sub ${activeMenu == 'Service' && 'd-block'}`}>
+                {/* <ul className={`list mobile-menu__sub ${activeMenu == 'Service' && 'd-block'}`}>
                   <li>
                     <Link href="service-1" className="mobile-menu__sub-link" onClick={openMobileMenu}>
                       {" "}
@@ -144,7 +144,7 @@ const Mobilemenu = () => {
                       Service Details{" "}
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
               </li>
               <li>
                 <Link href="contact-us-1" className="mobile-menu__link">
@@ -152,129 +152,129 @@ const Mobilemenu = () => {
                   Contact Us{" "}
                 </Link>
               </li>
-              <li className={`${activeMenu =='Pages' &&'is-active'}`}>
+              <li className={`${activeMenu =='Technology' &&'is-active'}`}>
                 <Link href="#" onClick={clickHandler} className="mobile-menu__link has-sub">
-                  Pages
+                  Technology
                 </Link>
-                <ul className={`list mobile-menu__sub ${activeMenu == 'Pages' && 'd-block'}`}>
+                <ul className={`list mobile-menu__sub ${activeMenu == 'Technology' && 'd-block'}`}>
                   <li>
                     <Link
-                      href="about-us-1"
+                      href="#"
                       className="mobile-menu__deep-link" onClick={openMobileMenu}>
                       {" "}
-                      About Us{" "}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="choose-us-1"
-                      className="mobile-menu__deep-link" onClick={openMobileMenu}>
-                      {" "}
-                      Why Choose Us{" "}
+                      Web Design{" "}
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="case-study-1"
+                      href="#"
                       className="mobile-menu__deep-link" onClick={openMobileMenu}>
                       {" "}
-                      Case Study{" "}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="facts-1" className="mobile-menu__deep-link" onClick={openMobileMenu}>
-                      {" "}
-                      History & Facts{" "}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="faq-1" className="mobile-menu__deep-link" onClick={openMobileMenu}>
-                      {" "}
-                      FAQ{" "}
+                      UI/UX Design{" "}
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="help-center"
+                      href="#"
                       className="mobile-menu__deep-link" onClick={openMobileMenu}>
                       {" "}
-                      Help Center{" "}
+                      Web Application Development{" "}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="#" className="mobile-menu__deep-link" onClick={openMobileMenu}>
+                      {" "}
+                      Social Media Marketing{" "}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="#" className="mobile-menu__deep-link" onClick={openMobileMenu}>
+                      {" "}
+                      SEO{" "}
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="getting-started"
+                      href="#"
                       className="mobile-menu__deep-link" onClick={openMobileMenu}>
                       {" "}
-                      Getting Started{" "}
+                      Google Ads{" "}
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="help-center-details"
+                      href="#"
                       className="mobile-menu__deep-link" onClick={openMobileMenu}>
                       {" "}
-                      Help Center Details{" "}
+                      Email Service{" "}
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="case-study-details-1"
+                      href="#"
                       className="mobile-menu__deep-link" onClick={openMobileMenu}>
                       {" "}
-                      Case Study Details{" "}
+                      Sas Development{" "}
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="leadership"
+                      href="#"
                       className="mobile-menu__deep-link" onClick={openMobileMenu}>
                       {" "}
-                      Leadership Page{" "}
+                      Cloud Migration{" "}
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="leadership-page"
+                      href="#"
                       className="mobile-menu__deep-link" onClick={openMobileMenu}>
                       {" "}
-                      Leadership Details{" "}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="referral" className="mobile-menu__deep-link" onClick={openMobileMenu}>
-                      {" "}
-                      Refferral{" "}
+                     Cloud Managed Service{" "}
                     </Link>
                   </li>
                   <li>
                     <Link
-                      href="pricing-plan-1"
+                      href="#"
                       className="mobile-menu__deep-link" onClick={openMobileMenu}>
                       {" "}
-                      Pricing Plan{" "}
+                      iPaas and RPA{" "}
                     </Link>
                   </li>
                   <li>
-                    <Link href="error" className="mobile-menu__deep-link" onClick={openMobileMenu}>
+                    <Link href="#" className="mobile-menu__deep-link" onClick={openMobileMenu}>
+                      {" "}
+                      App Development{" "}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="#"
+                      className="mobile-menu__deep-link" onClick={openMobileMenu}>
+                      {" "}
+                      Training & Project Management{" "}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="#" className="mobile-menu__deep-link" onClick={openMobileMenu}>
+                      {" "}
+                      Consulting{" "}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="#"
+                      className="mobile-menu__deep-link" onClick={openMobileMenu}>
+                      {" "}
+                      Resource Outsourcing{" "}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="error"
+                      className="mobile-menu__deep-link" onClick={openMobileMenu}>
                       {" "}
                       404{" "}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="coming-soon"
-                      className="mobile-menu__deep-link" onClick={openMobileMenu}>
-                      {" "}
-                      Coming Soon{" "}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href="terms-condition"
-                      className="mobile-menu__deep-link" onClick={openMobileMenu}>
-                      {" "}
-                      Terms & Condition{" "}
                     </Link>
                   </li>
                 </ul>

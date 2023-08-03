@@ -216,7 +216,7 @@ const contact_us_1 = () => {
                         {" "}
                         Reach Us via Email{" "}
                       </span>
-                      <span className="d-block"> ifo@redtuf.com </span>
+                      <span className="d-block"> info@redtuf.com </span>
                     </span>
                     <span className="service-link__icon clr-light bg-base">
                       <span className="material-symbols-outlined mat-icon">

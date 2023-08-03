@@ -3,7 +3,7 @@ import Link from "next/link";
 // import Pricing from "@/components/Pricing";
 import Technologies from "@/components/Technologies";
 import Service from "@/components/home_1/Service";
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/home_2/Navbar";
 import { useEffect } from 'react';
 import Footer from "@/components/home_2/Footer";
 
@@ -14,7 +14,7 @@ const service_1 = () => {
   return (
     <>
       {/* Navbar Section */}
-      <Navbar rtlurl="/rtl/service-1" />
+      <Navbar  />
       {/* Banner section */}
       <section className="banner-section section--sm">
         <div className="container">
