@@ -1,11 +1,11 @@
 import Link from "next/link";
-import Testimonial_slider_1 from "@/components/Testimonial-slider-1";
-import Pricing from "@/components/Pricing";
+// import Testimonial_slider_1 from "@/components/Testimonial-slider-1";
+// import Pricing from "@/components/Pricing";
 import Technologies from "@/components/Technologies";
 import Service from "@/components/home_1/Service";
 import Navbar from "@/components/Navbar";
 import { useEffect } from 'react';
-import Footer from "@/components/home_4/Footer";
+import Footer from "@/components/home_2/Footer";
 
 const service_1 = () => {
   useEffect(() => {
@@ -60,7 +60,9 @@ const service_1 = () => {
       {/* hide section <!-- Pricing Section --> */}
       {/* <Pricing /> */}
       {/* <!-- Testimonials  --> */}
-      <Testimonial_slider_1 />
+
+      {/* <Testimonial_slider_1 /> */}
+      
       {/* Footer */}
       <Footer />
     </>

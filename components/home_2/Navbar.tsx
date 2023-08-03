@@ -72,7 +72,7 @@ const Navbar = () => {
                       </span>
                     </span>
                     <span className="d-none d-xl-inline-block clr-heading">
-                      Bangaloer, KA 
+                    Bengaluru, KA 
                     </span>
                   </Link>
                 </li>
@@ -265,7 +265,7 @@ const Navbar = () => {
 
                   {/* Technology Menu */}
                   <li className="mega-menu--container">
-                    <Link href="technology" className="primary-menu__link has-megamenu">
+                    <Link href="/" className="primary-menu__link has-megamenu">
                       Technology
                     </Link>
                     <ul className="list mega-menu">

@@ -262,7 +262,7 @@ const Navbar = ({rtlurl}) => {
 
                   {/* Technology Menu */}
                   <li className="mega-menu--container">
-                    <Link href="technology" className="primary-menu__link has-megamenu">
+                    <Link href="/" className="primary-menu__link has-megamenu">
                       Technology
                     </Link>
                     <ul className="list mega-menu">

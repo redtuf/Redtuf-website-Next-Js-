@@ -10,7 +10,7 @@ import Navbar from "@/components/home_2/Navbar";
 import Service from "@/components/home_2/Service";
 import ServiceTab from "@/components/home_2/ServiceTab";
 // import Team from "@/components/home_2/Team";
-import Testimonail from "@/components/home_2/Testimonail";
+// import Testimonail from "@/components/home_2/Testimonail";
 import Workprocess from "@/components/home_2/Workprocess";
 import Head from "next/head";
 import { useEffect, useState } from "react";
@@ -80,7 +80,9 @@ const home_2 = () => {
       {/* <Team /> */}
 
       {/*  Testimonial Section  --> */}
-      <Testimonail />
+
+      {/* <Testimonail /> */}
+
       {/*  Footer --> */}
       <Footer />
     </>

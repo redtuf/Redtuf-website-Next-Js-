@@ -109,7 +109,7 @@ const Footer = () => {
                 <ul className="list list-xsm">
                   <li>
                     <Link
-                      href="about-us-1"
+                      href="#"
                       className="t-link clr-light :clr-accent">
                       {" "}
                       About Us{" "}
@@ -125,7 +125,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="case-study-1"
+                      href="service-1"
                       className="t-link clr-light :clr-accent">
                       {" "}
                       Case Study{" "}
@@ -133,7 +133,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="pricing-plan-1"
+                      href="contact-us-1"
                       className="t-link clr-light :clr-accent">
                       {" "}
                       Pricing Plan{" "}
@@ -141,7 +141,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="choose-us-1"
+                      href="/"
                       className="t-link clr-light :clr-accent">
                       {" "}
                       Why Choose Us{" "}
@@ -162,7 +162,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="leadership"
+                      href="contact-us-1"
                       className="t-link clr-light :clr-accent">
                       {" "}
                       Leadership Page{" "}
@@ -170,7 +170,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="facts-1"
+                      href="contact-us-1"
                       className="t-link clr-light :clr-accent">
                       {" "}
                       Facts{" "}
@@ -178,7 +178,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="faq-1"
+                      href="contact-us-1"
                       className="t-link clr-light :clr-accent">
                       {" "}
                       FAQ{" "}
@@ -186,7 +186,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="help-center"
+                      href="contact-us-1"
                       className="t-link clr-light :clr-accent">
                       {" "}
                       Help Center{" "}
@@ -199,7 +199,7 @@ const Footer = () => {
                 <ul className="list list-xs">
                   <li>
                     <Link
-                      href="referral"
+                      href="/"
                       className="t-link clr-light :clr-accent">
                       {" "}
                       Referral{" "}
@@ -207,7 +207,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="coming-soon"
+                      href="/"
                       className="t-link clr-light :clr-accent">
                       {" "}
                       Coming Soon{" "}
@@ -215,7 +215,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="terms-condition"
+                      href="/"
                       className="t-link clr-light :clr-accent">
                       {" "}
                       Terms & Condition{" "}
@@ -223,7 +223,7 @@ const Footer = () => {
                   </li>
                   <li>
                     <Link
-                      href="blog-page-1"
+                      href="/"
                       className="t-link clr-light :clr-accent">
                       {" "}
                       Newsletter{" "}

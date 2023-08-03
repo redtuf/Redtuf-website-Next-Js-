@@ -1,6 +1,6 @@
 import Navbar from "@/components/Navbar";
-import Testimonial_slider_1 from "@/components/Testimonial-slider-1";
-import Footer from "@/components/home_4/Footer";
+// import Testimonial_slider_1 from "@/components/Testimonial-slider-1";
+import Footer from "@/components/home_2/Footer";
 import Link from "next/link";
 
 import { useEffect } from 'react';
