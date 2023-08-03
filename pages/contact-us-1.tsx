@@ -1,4 +1,4 @@
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/home_2/Navbar";
 // import Testimonial_slider_1 from "@/components/Testimonial-slider-1";
 import Footer from "@/components/home_2/Footer";
 import Link from "next/link";
@@ -11,7 +11,7 @@ const contact_us_1 = () => {
   }, []);
   return (
     <>
-      <Navbar rtlurl="/rtl/contact-us-1" />
+      <Navbar  />
       {/* Banner */}
       <section className="banner-section section--sm">
         <div className="container">
