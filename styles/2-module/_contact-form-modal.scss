@@ -1,0 +1,71 @@
+.contact-form-modal {
+  background: #fff;
+
+  &__input {
+    padding: 1rem 2rem;
+    border: none;
+    background: #edf2f5;
+    color: #15141475;
+
+    &::placeholder {
+      color: #15141475;
+    }
+
+    &:focus {
+      border: 1px solid #a89aff;
+      background: #fff;
+      color: #000;
+    }
+  }
+
+  &__select {
+    position: relative;
+    isolation: isolate;
+    background: #5d43fc;
+
+    &::after {
+      content: "\e5c5";
+      position: absolute;
+      inset-block-start: 50%;
+      inset-inline-end: 1rem;
+      transform: translateY(-50%);
+      font-family: "Material Symbols Outlined";
+      font-weight: normal;
+      font-style: normal;
+      font-size: 24px;
+      line-height: 1;
+      letter-spacing: normal;
+      text-transform: none;
+      display: inline-grid;
+      white-space: nowrap;
+      word-wrap: normal;
+      -webkit-font-feature-settings: "liga";
+      -webkit-font-smoothing: antialiased;
+      color: hsl(var(--light));
+      pointer-events: none;
+    }
+
+    .form-select {
+      padding: 1rem 2rem;
+      border: 1px solid #a89aff;
+      background: #5d43fc;
+      background: transparent;
+      color: hsl(var(--light) / 0.5);
+
+      option {
+        color: hsl(var(--light));
+        background: #5d43fc;
+
+        &[selected] {
+          background-color: #a89aff;
+        }
+      }
+    }
+  }
+}
+
+// modal body bottom left and right rounded
+.bottom-border--rounded {
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}

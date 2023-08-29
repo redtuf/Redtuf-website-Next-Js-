@@ -82,9 +82,10 @@ const Hero = () => {
                     </div>
                   </div>
                   <img
-                    src="/images/hero-2-img-1.png"
+                    src="/images/hero-img-1.png"
                     alt="image"
                     className="img-fluid hero-slider-1__img"
+                    style={{'top':"-80px"}}
                   />
                 </div>
               </div>

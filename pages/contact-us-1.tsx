@@ -4,7 +4,7 @@ import ContactFormModal from "@/components/ContactFormModal";
 import Footer from "@/components/home_2/Footer";
 import Link from "next/link";
 
-import { useEffect, useState } from 'react';
+import { useEffect, useState } from "react";
 
 const contact_us_1 = () => {
   // state for modal
@@ -13,11 +13,34 @@ const contact_us_1 = () => {
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
 
+  //state for whats app icon  display
+  const [scrolled, setScrolled] = useState(false);
+
   useEffect(() => {
     document.documentElement.setAttribute("dir", "ltr");
+    document.addEventListener("scroll", () => {
+      if (window.scrollY > 100) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    });
   }, []);
   return (
     <>
+      <div className={`whats-app-icon ${scrolled ? "d-block" : "d-none"}`}>
+        <Link
+          href="https://wa.me/+919078500888?text=I%27d%20like%20to%20chat%20with%20you"
+          rel="nofollow noopener"
+          target="_blank"
+        >
+          <img
+            src="/images/wp-icon.svg"
+            className="whats-app-icon_pic"
+            alt=""
+          />
+        </Link>
+      </div>
       <Navbar handleShow={handleShow} />
       {/* Banner */}
       <section className="banner-section section--sm">
@@ -29,7 +52,8 @@ const contact_us_1 = () => {
                 <li>
                   <Link
                     href="/"
-                    className="d-inline-block t-link clr-light :clr-accent">
+                    className="d-inline-block t-link clr-light :clr-accent"
+                  >
                     {" "}
                     Home{" "}
                   </Link>
@@ -37,7 +61,8 @@ const contact_us_1 = () => {
                 <li className="">
                   <Link
                     href="#"
-                    className="d-inline-block t-link clr-light :clr-accent">
+                    className="d-inline-block t-link clr-light :clr-accent"
+                  >
                     {" "}
                     Contact Us{" "}
                   </Link>
@@ -45,12 +70,14 @@ const contact_us_1 = () => {
                 <li className="d-none">
                   <Link
                     href="#"
-                    className="d-inline-block t-link clr-light :clr-accent"></Link>
+                    className="d-inline-block t-link clr-light :clr-accent"
+                  ></Link>
                 </li>
                 <li className="d-none">
                   <Link
                     href="#"
-                    className="d-inline-block t-link clr-light :clr-accent"></Link>
+                    className="d-inline-block t-link clr-light :clr-accent"
+                  ></Link>
                 </li>
               </ul>
             </div>
@@ -64,13 +91,16 @@ const contact_us_1 = () => {
             <div className="row justify-content-center">
               <div className="col-md-10 col-xl-8">
                 <span className="d-block h5 lh-1 fw-semibold clr-base text-center">
-                Is that clear?
+                  Is that clear?
                 </span>
                 <h2 className="mt-5 mb-5 text-center">
-                We're here to respond to it!
+                  We're here to respond to it!
                 </h2>
                 <p className="text-center">
-                Send us details about your project, please. An official offer is made to you when one of our project managers evaluates your project's needs. We can analyze your project with the help of detailed information.
+                  Send us details about your project, please. An official offer
+                  is made to you when one of our project managers evaluates your
+                  project's needs. We can analyze your project with the help of
+                  detailed information.
                 </p>
               </div>
             </div>
@@ -81,7 +111,8 @@ const contact_us_1 = () => {
             <div className="col-lg-6">
               <form
                 action="#"
-                className="contact-form-1 bg-base p-5 py-md-10 rounded-4">
+                className="contact-form-1 bg-base p-5 py-md-10 rounded-4"
+              >
                 <div className="row g-4">
                   <div className="col-md-6">
                     <input
@@ -125,7 +156,8 @@ const contact_us_1 = () => {
                     <textarea
                       className="form-control contact-form-1__input rounded-8"
                       rows={3}
-                      placeholder="Let us know"></textarea>
+                      placeholder="Let us know"
+                    ></textarea>
                   </div>
                   <div className="col-12">
                     <div className="form-check">
@@ -137,7 +169,8 @@ const contact_us_1 = () => {
                       />
                       <label
                         className="form-check-label clr-light"
-                        htmlFor="newsletter-subscribe">
+                        htmlFor="newsletter-subscribe"
+                      >
                         {" "}
                         I would like to be updated on the latest products, event
                         announcements{" "}
@@ -154,7 +187,8 @@ const contact_us_1 = () => {
                       />
                       <label
                         className="form-check-label clr-light"
-                        htmlFor="accept-terms">
+                        htmlFor="accept-terms"
+                      >
                         {" "}
                         I have read and accepted the Terms & Conditions Privacy
                         Policy{" "}
@@ -177,13 +211,14 @@ const contact_us_1 = () => {
                 <li>
                   <Link
                     href="#"
-                    className="t-link service-link clr-heading :clr-light border-bottom">
+                    className="t-link service-link clr-heading :clr-light border-bottom"
+                  >
                     <span className="group gap-1">
                       <span className="d-inline-block service-link__title fw-bold">
-                      Contact To
+                        Contact To
                       </span>
                       <span className="d-block">
-                      our engagement specialist to schedule a demonstration.
+                        our engagement specialist to schedule a demonstration.
                       </span>
                     </span>
                     <span className="service-link__icon clr-light bg-base">
@@ -197,13 +232,14 @@ const contact_us_1 = () => {
                 <li>
                   <Link
                     href="#"
-                    className="t-link service-link clr-heading :clr-light border-bottom">
+                    className="t-link service-link clr-heading :clr-light border-bottom"
+                  >
                     <span className="group gap-1">
                       <span className="d-inline-block service-link__title fw-bold">
-                      Send Your Resume,
+                        Send Your Resume,
                       </span>
                       <span className="d-block">
-                      If you're interested in working with us.
+                        If you're interested in working with us.
                       </span>
                     </span>
                     <span className="service-link__icon clr-light bg-base">
@@ -217,7 +253,8 @@ const contact_us_1 = () => {
                 <li>
                   <Link
                     href="#"
-                    className="t-link service-link clr-heading :clr-light">
+                    className="t-link service-link clr-heading :clr-light"
+                  >
                     <span className="group gap-1">
                       <span className="d-inline-block service-link__title fw-bold">
                         {" "}
@@ -377,7 +414,7 @@ const contact_us_1 = () => {
       <Footer />
 
       {/*  Contact Form Modal --> */}
-      <ContactFormModal show={show}  handleClose={handleClose} />
+      <ContactFormModal show={show} handleClose={handleClose} />
     </>
   );
 };

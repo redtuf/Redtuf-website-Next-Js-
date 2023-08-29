@@ -14,6 +14,7 @@ import ServiceTab from "@/components/home_2/ServiceTab";
 import Workprocess from "@/components/home_2/Workprocess";
 import ContactFormModal from "@/components/ContactFormModal";
 import Head from "next/head";
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const home_2 = () => {
@@ -46,6 +47,12 @@ const home_2 = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/favicon-rf.png" />
       </Head>
+      {/* whats app integration */}
+      <div className={`whats-app-icon ${scrolled ? "d-block" : "d-none"}`}> 
+      <Link href="https://wa.me/+919078500888?text=I%27d%20like%20to%20chat%20with%20you" rel="nofollow noopener" target="_blank">
+        <img src="/images/wp-icon.svg" className="whats-app-icon_pic" alt="" />
+      </Link>
+      </div>
       <div
         onClick={backtoTop}
         className={`back-to-top ${scrolled ? "d-block" : "d-none"}`}>

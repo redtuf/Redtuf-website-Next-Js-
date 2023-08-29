@@ -1,120 +1,139 @@
-
 import Link from "next/link";
 import Navbar from "@/components/home_2/Navbar";
-import { useEffect,useState } from 'react';
+import { useEffect, useState } from "react";
 import Footer from "@/components/home_2/Footer";
 import ContactFormModal from "@/components/ContactFormModal";
-
 
 const blogData = [
   {
     id: 1,
-    title: 'Roadmap to becoming a Front-end Developer in 2023',
-    tag: 'Web Development',
-    date: 'May 22, 2023',
-    blog: 'Rutrum consequat ultricies leo eu volutpat neque volutpat iaculis dignissim.',
-    img: '/images/blog-post-9.png'
+    title: "Roadmap to becoming a Front-end Developer in 2023",
+    tag: "Web Development",
+    date: "May 22, 2023",
+    blog: "Rutrum consequat ultricies leo eu volutpat neque volutpat iaculis dignissim.",
+    img: "/images/blog-post-9.png",
   },
   {
     id: 2,
-    title: 'What types of healthcare software should you know?',
-    tag: 'Healthcare',
-    date: 'May 22, 2023',
-    blog: 'Rutrum consequat ultricies leo eu volutpat neque volutpat iaculis dignissim.',
-    img: '/images/blog-post-10.png'
+    title: "What types of healthcare software should you know?",
+    tag: "Healthcare",
+    date: "May 22, 2023",
+    blog: "Rutrum consequat ultricies leo eu volutpat neque volutpat iaculis dignissim.",
+    img: "/images/blog-post-10.png",
   },
   {
     id: 3,
-    title: 'Flutter Wrocław Meetup x itechex vol. 3 – Event Recap',
-    tag: 'People',
-    date: 'May 22, 2023',
-    blog: 'Rutrum consequat ultricies leo eu volutpat neque volutpat iaculis dignissim.',
-    img: '/images/blog-post-11.png'
+    title: "Flutter Wrocław Meetup x itechex vol. 3 – Event Recap",
+    tag: "People",
+    date: "May 22, 2023",
+    blog: "Rutrum consequat ultricies leo eu volutpat neque volutpat iaculis dignissim.",
+    img: "/images/blog-post-11.png",
   },
   {
     id: 4,
-    title: 'Impact of Machine Learning on the HealthTech industry',
-    tag: 'Healthtech',
-    date: 'May 22, 2023',
-    blog: 'Rutrum consequat ultricies leo eu volutpat neque volutpat iaculis dignissim.',
-    img: '/images/blog-post-12.png'
+    title: "Impact of Machine Learning on the HealthTech industry",
+    tag: "Healthtech",
+    date: "May 22, 2023",
+    blog: "Rutrum consequat ultricies leo eu volutpat neque volutpat iaculis dignissim.",
+    img: "/images/blog-post-12.png",
   },
   {
     id: 5,
-    title: 'Impact of Machine Learning on the HealthTech industry',
-    tag: 'Healthtech',
-    date: 'May 22, 2023',
-    blog: 'Rutrum consequat ultricies leo eu volutpat neque volutpat iaculis dignissim.',
-    img: '/images/blog-post-13.png'
+    title: "Impact of Machine Learning on the HealthTech industry",
+    tag: "Healthtech",
+    date: "May 22, 2023",
+    blog: "Rutrum consequat ultricies leo eu volutpat neque volutpat iaculis dignissim.",
+    img: "/images/blog-post-13.png",
   },
   {
     id: 6,
-    title: 'How to maximize product trust in the design process?',
-    tag: 'Product Design',
-    date: 'May 22, 2023',
-    blog: 'Rutrum consequat ultricies leo eu volutpat neque volutpat iaculis dignissim.',
-    img: '/images/blog-post-14.png'
+    title: "How to maximize product trust in the design process?",
+    tag: "Product Design",
+    date: "May 22, 2023",
+    blog: "Rutrum consequat ultricies leo eu volutpat neque volutpat iaculis dignissim.",
+    img: "/images/blog-post-14.png",
   },
-]
+];
 const BlogPosts = () => {
   return (
     <>
-      {
-        blogData.map(({ id, title, blog, date, img, tag }) => (
-          <div key={id} className="col-md-6 col-lg-4">
-            <div className="blog-post-1">
-              <Link
-                href="blog-details-1"
-                className="blog-post-1__link">
-                <img
-                  src={img}
-                  alt="image"
-                  className="blog-post-1__img"
-                />
-              </Link>
-              <div className="blog-post-1__body">
-                <ul className="list list-row list--divider">
-                  <li>
-                    <Link
-                      href="blog-details-1"
-                      className="t-link d-inline-block clr-base :clr-base fw-md">{tag}</Link>
-                  </li>
-                  <li>
-                    <div className="group group-xs group-row align-items-center">
-                      <span className="material-symbols-rounded mat-icon solid flex-shrink-0 clr-base">
-                        {" "}
-                        alarm{" "}
-                      </span>
-                      <span className="d-inline-block">{date}</span>
-                    </div>
-                  </li>
-                </ul>
-                <h5 className="mt-5 mb-5">
+      {blogData.map(({ id, title, blog, date, img, tag }) => (
+        <div key={id} className="col-md-6 col-lg-4">
+          <div className="blog-post-1">
+            <Link href="blog-details-1" className="blog-post-1__link">
+              <img src={img} alt="image" className="blog-post-1__img" />
+            </Link>
+            <div className="blog-post-1__body">
+              <ul className="list list-row list--divider">
+                <li>
                   <Link
                     href="blog-details-1"
-                    className="t-link clr-heading :clr-base d-block">{title}</Link>
-                </h5>
-                <p className="mb-5">{blog} </p>
-              </div>
+                    className="t-link d-inline-block clr-base :clr-base fw-md"
+                  >
+                    {tag}
+                  </Link>
+                </li>
+                <li>
+                  <div className="group group-xs group-row align-items-center">
+                    <span className="material-symbols-rounded mat-icon solid flex-shrink-0 clr-base">
+                      {" "}
+                      alarm{" "}
+                    </span>
+                    <span className="d-inline-block">{date}</span>
+                  </div>
+                </li>
+              </ul>
+              <h5 className="mt-5 mb-5">
+                <Link
+                  href="blog-details-1"
+                  className="t-link clr-heading :clr-base d-block"
+                >
+                  {title}
+                </Link>
+              </h5>
+              <p className="mb-5">{blog} </p>
             </div>
           </div>
-        ))
-      }
+        </div>
+      ))}
     </>
-  )
-}
+  );
+};
 const blog_1 = () => {
   // state for modal
   const [show, setShow] = useState(false);
 
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-  
+
+  //state for whats app icon  display
+  const [scrolled, setScrolled] = useState(false);
+
   useEffect(() => {
     document.documentElement.setAttribute("dir", "ltr");
+    document.addEventListener("scroll", () => {
+      if (window.scrollY > 100) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    });
   }, []);
   return (
     <>
+      <div className={`whats-app-icon ${scrolled ? "d-block" : "d-none"}`}>
+        <Link
+          href="https://wa.me/+919078500888?text=I%27d%20like%20to%20chat%20with%20you"
+          rel="nofollow noopener"
+          target="_blank"
+        >
+          <img
+            src="/images/wp-icon.svg"
+            className="whats-app-icon_pic"
+            alt=""
+          />
+        </Link>
+      </div>
       {/* Navbar */}
       <Navbar handleShow={handleShow} />
       {/* Banner Section */}
@@ -127,7 +146,8 @@ const blog_1 = () => {
                 <li>
                   <Link
                     href="/"
-                    className="d-inline-block t-link clr-light :clr-accent">
+                    className="d-inline-block t-link clr-light :clr-accent"
+                  >
                     {" "}
                     Home{" "}
                   </Link>
@@ -135,7 +155,8 @@ const blog_1 = () => {
                 <li className="">
                   <Link
                     href="#"
-                    className="d-inline-block t-link clr-light :clr-accent">
+                    className="d-inline-block t-link clr-light :clr-accent"
+                  >
                     {" "}
                     Blog Page - 01{" "}
                   </Link>
@@ -143,12 +164,14 @@ const blog_1 = () => {
                 <li className="d-none">
                   <Link
                     href="#"
-                    className="d-inline-block t-link clr-light :clr-accent"></Link>
+                    className="d-inline-block t-link clr-light :clr-accent"
+                  ></Link>
                 </li>
                 <li className="d-none">
                   <Link
                     href="#"
-                    className="d-inline-block t-link clr-light :clr-accent"></Link>
+                    className="d-inline-block t-link clr-light :clr-accent"
+                  ></Link>
                 </li>
               </ul>
             </div>
@@ -196,7 +219,8 @@ const blog_1 = () => {
                     <li>
                       <Link
                         href="blog-details-1"
-                        className="t-link d-inline-block clr-base :clr-base fw-md">
+                        className="t-link d-inline-block clr-base :clr-base fw-md"
+                      >
                         {" "}
                         Development{" "}
                       </Link>
@@ -214,7 +238,8 @@ const blog_1 = () => {
                   <h4 className="mt-5 mb-5">
                     <Link
                       href="blog-details-1"
-                      className="t-link d-block clr-heading :clr-base">
+                      className="t-link d-block clr-heading :clr-base"
+                    >
                       {" "}
                       The Most Significant Advances in Technology That We've
                       Seen So Far This Year{" "}
@@ -245,7 +270,8 @@ const blog_1 = () => {
                         <li>
                           <Link
                             href="blog-details-1"
-                            className="t-link d-inline-block clr-base :clr-base fw-md">
+                            className="t-link d-inline-block clr-base :clr-base fw-md"
+                          >
                             {" "}
                             Artifical Intelligence{" "}
                           </Link>
@@ -266,7 +292,8 @@ const blog_1 = () => {
                       <h5 className="mt-3">
                         <Link
                           href="blog-details-1"
-                          className="t-link d-block clr-heading :clr-base">
+                          className="t-link d-block clr-heading :clr-base"
+                        >
                           {" "}
                           Why We Love Technology—And You Should, Too!{" "}
                         </Link>
@@ -288,7 +315,8 @@ const blog_1 = () => {
                         <li>
                           <Link
                             href="blog-details-1"
-                            className="t-link d-inline-block clr-base :clr-base fw-md">
+                            className="t-link d-inline-block clr-base :clr-base fw-md"
+                          >
                             {" "}
                             Web Design{" "}
                           </Link>
@@ -309,7 +337,8 @@ const blog_1 = () => {
                       <h5 className="mt-3">
                         <Link
                           href="blog-details-1"
-                          className="t-link d-block clr-heading :clr-base">
+                          className="t-link d-block clr-heading :clr-base"
+                        >
                           {" "}
                           There are often 17 misconceptions about technology.{" "}
                         </Link>
@@ -331,7 +360,8 @@ const blog_1 = () => {
                         <li>
                           <Link
                             href="blog-details-1"
-                            className="t-link d-inline-block clr-base :clr-base fw-md">
+                            className="t-link d-inline-block clr-base :clr-base fw-md"
+                          >
                             {" "}
                             App Design{" "}
                           </Link>
@@ -352,7 +382,8 @@ const blog_1 = () => {
                       <h5 className="mt-3">
                         <Link
                           href="blog-details-1"
-                          className="t-link d-block clr-heading :clr-base">
+                          className="t-link d-block clr-heading :clr-base"
+                        >
                           {" "}
                           Make Your Company Better With Web Services Solutions{" "}
                         </Link>
@@ -374,7 +405,8 @@ const blog_1 = () => {
                         <li>
                           <Link
                             href="blog-details-1"
-                            className="t-link d-inline-block clr-base :clr-base fw-md">
+                            className="t-link d-inline-block clr-base :clr-base fw-md"
+                          >
                             {" "}
                             Development{" "}
                           </Link>
@@ -395,7 +427,8 @@ const blog_1 = () => {
                       <h5 className="mt-3">
                         <Link
                           href="blog-details-1"
-                          className="t-link d-block clr-heading :clr-base">
+                          className="t-link d-block clr-heading :clr-base"
+                        >
                           {" "}
                           A Look at the Impact of Wireless Technology on
                           Enterprise{" "}
@@ -419,7 +452,8 @@ const blog_1 = () => {
                   <h2 className="flex-grow-1"> Blog Categories </h2>
                   <Link
                     href="blog-page-1"
-                    className="bttn bttn--base-outline bttn-md bttn-pill gap-2 fw-md flex-shrink-0 align-items-center">
+                    className="bttn bttn--base-outline bttn-md bttn-pill gap-2 fw-md flex-shrink-0 align-items-center"
+                  >
                     {" "}
                     All Articles{" "}
                     <span className="material-symbols-rounded mat-icon size-16 fw-400 bttn__icon-base d-flex align-items-center">
@@ -496,7 +530,8 @@ const blog_1 = () => {
                     <Link
                       className="tab-button active"
                       href="#all-post"
-                      data-bs-toggle="list">
+                      data-bs-toggle="list"
+                    >
                       {" "}
                       All{" "}
                     </Link>
@@ -505,7 +540,8 @@ const blog_1 = () => {
                     <Link
                       className="tab-button"
                       href="#design-post"
-                      data-bs-toggle="list">
+                      data-bs-toggle="list"
+                    >
                       {" "}
                       Design{" "}
                     </Link>
@@ -514,7 +550,8 @@ const blog_1 = () => {
                     <Link
                       className="tab-button"
                       href="#development-post"
-                      data-bs-toggle="list">
+                      data-bs-toggle="list"
+                    >
                       {" "}
                       Development{" "}
                     </Link>
@@ -523,7 +560,8 @@ const blog_1 = () => {
                     <Link
                       className="tab-button"
                       href="#marketing-post"
-                      data-bs-toggle="list">
+                      data-bs-toggle="list"
+                    >
                       {" "}
                       Marketing{" "}
                     </Link>
@@ -612,7 +650,7 @@ const blog_1 = () => {
       <Footer />
 
       {/*  Contact Form Modal --> */}
-      <ContactFormModal show={show}  handleClose={handleClose} />
+      <ContactFormModal show={show} handleClose={handleClose} />
     </>
   );
 };
