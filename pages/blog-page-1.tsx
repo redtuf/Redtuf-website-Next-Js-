@@ -1,7 +1,11 @@
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/home_4/Footer";
+
 import Link from "next/link";
-import { useEffect } from 'react';
+import Navbar from "@/components/home_2/Navbar";
+import { useEffect,useState } from 'react';
+import Footer from "@/components/home_2/Footer";
+import ContactFormModal from "@/components/ContactFormModal";
+
+
 const blogData = [
   {
     id: 1,
@@ -100,13 +104,19 @@ const BlogPosts = () => {
   )
 }
 const blog_1 = () => {
+  // state for modal
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+  
   useEffect(() => {
     document.documentElement.setAttribute("dir", "ltr");
   }, []);
   return (
     <>
       {/* Navbar */}
-      <Navbar rtlurl="/rtl/blog-page-1" />
+      <Navbar handleShow={handleShow} />
       {/* Banner Section */}
       <section className="banner-section section--sm">
         <div className="container">
@@ -600,6 +610,9 @@ const blog_1 = () => {
       </div>
       {/* Footer */}
       <Footer />
+
+      {/*  Contact Form Modal --> */}
+      <ContactFormModal show={show}  handleClose={handleClose} />
     </>
   );
 };

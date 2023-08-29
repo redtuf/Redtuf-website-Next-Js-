@@ -12,11 +12,18 @@ import ServiceTab from "@/components/home_2/ServiceTab";
 // import Team from "@/components/home_2/Team";
 // import Testimonail from "@/components/home_2/Testimonail";
 import Workprocess from "@/components/home_2/Workprocess";
+import ContactFormModal from "@/components/ContactFormModal";
 import Head from "next/head";
 import { useEffect, useState } from "react";
 
 const home_2 = () => {
   const [scrolled, setScrolled] = useState(false);
+
+  // state for modal
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
 
   useEffect(() => {
     document.documentElement.setAttribute("dir", 'ltr');
@@ -33,7 +40,7 @@ const home_2 = () => {
   };
   return (
     <>
-    <Head>
+      <Head>
         <title>Redtuf - IT Solution & Services</title>
         <meta name="description" content=" IT Solution & Services" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -50,7 +57,7 @@ const home_2 = () => {
         </span>
       </div>
       {/* Navbar Section */}
-      <Navbar />
+      <Navbar handleShow={handleShow} />
       {/* Hero Section */}
       <Hero />
       {/* Brand Section */}
@@ -85,6 +92,9 @@ const home_2 = () => {
 
       {/*  Footer --> */}
       <Footer />
+
+      {/*  Contact Form Modal --> */}
+      <ContactFormModal show={show}  handleClose={handleClose} />
     </>
   );
 };

@@ -1,17 +1,24 @@
 import Navbar from "@/components/home_2/Navbar";
+import ContactFormModal from "@/components/ContactFormModal";
 // import Testimonial_slider_1 from "@/components/Testimonial-slider-1";
 import Footer from "@/components/home_2/Footer";
 import Link from "next/link";
 
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
 
 const contact_us_1 = () => {
+  // state for modal
+  const [show, setShow] = useState(false);
+
+  const handleClose = () => setShow(false);
+  const handleShow = () => setShow(true);
+
   useEffect(() => {
     document.documentElement.setAttribute("dir", "ltr");
   }, []);
   return (
     <>
-      <Navbar  />
+      <Navbar handleShow={handleShow} />
       {/* Banner */}
       <section className="banner-section section--sm">
         <div className="container">
@@ -368,6 +375,9 @@ const contact_us_1 = () => {
       {/* <Testimonial_slider_1 /> */}
       {/* Footer */}
       <Footer />
+
+      {/*  Contact Form Modal --> */}
+      <ContactFormModal show={show}  handleClose={handleClose} />
     </>
   );
 };

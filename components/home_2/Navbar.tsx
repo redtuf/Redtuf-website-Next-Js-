@@ -9,8 +9,9 @@ import { useTheme } from "next-themes";
 import Link from "next/link";
 import {useState, useEffect} from 'react';
 import { useRouter } from "next/router";
+import Button from 'react-bootstrap/Button';
 
-const Navbar = () => {
+const Navbar = ({handleShow}) => {
     const [mounted, setMounted] = useState(false)
     const { theme, setTheme } = useTheme();
     const inactiveTheme = theme === "light" ? "dark" : "light";
@@ -472,11 +473,9 @@ const Navbar = () => {
                     </button>
                   </li>
                   <li>
-                    <Link
-                      href="pricing-plan-1"
-                      className="bttn bttn--base bttn-sm bttn-pill fw-md flex-shrink-0">
-                      Get Quote
-                    </Link>
+                  <Button  className="bttn bttn--base bttn-sm bttn-pill fw-md flex-shrink-0" onClick={handleShow}>
+                  Get Quote
+                  </Button>
                   </li>
                 </ul>
               </nav>

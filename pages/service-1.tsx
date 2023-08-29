@@ -4,17 +4,24 @@ import Link from "next/link";
 import Technologies from "@/components/Technologies";
 import Service from "@/components/home_1/Service";
 import Navbar from "@/components/home_2/Navbar";
-import { useEffect } from 'react';
+import { useEffect,useState } from 'react';
 import Footer from "@/components/home_2/Footer";
+import ContactFormModal from "@/components/ContactFormModal";
 
 const service_1 = () => {
+    // state for modal
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
   useEffect(() => {
     document.documentElement.setAttribute("dir", "ltr");
   }, []);
   return (
     <>
       {/* Navbar Section */}
-      <Navbar  />
+      <Navbar handleShow={handleShow} />
       {/* Banner section */}
       <section className="banner-section section--sm">
         <div className="container">
@@ -65,6 +72,9 @@ const service_1 = () => {
       
       {/* Footer */}
       <Footer />
+      
+      {/*  Contact Form Modal --> */}
+      <ContactFormModal show={show}  handleClose={handleClose} />
     </>
   );
 };
