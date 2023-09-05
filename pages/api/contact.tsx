@@ -21,7 +21,7 @@ const handler = async (req: NextApiRequest, res: NextApiResponse<Data>) => {
         html: "<h1>Test Title</h1><p>Some Body Test.</p>"
       })
 
-      return res.status(200).json({ "success" : true });
+      return res.status(200).json({ message : "successfully sent message" });
 
     } catch (err) {
       console.log(err);
