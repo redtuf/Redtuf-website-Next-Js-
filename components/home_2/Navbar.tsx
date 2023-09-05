@@ -97,7 +97,7 @@ const Navbar = ({handleShow}) => {
                   <ul className="list list-xs list-row">
                     <li>
                       <Link
-                        href="#"
+                        href="https://m.facebook.com/redtuftechnologies?eav=AfZPt4AwJ7rzNJ0qQlqqZGn-jdZ2Tat7nReR6AO4VApj5i1ChBVzx5W7n5ItVuANck0&paipv=0"
                         className="t-link social-icon social-icon--xs clr-heading :clr-base lg-text">
                         <FaFacebookF />
                       </Link>
@@ -111,14 +111,14 @@ const Navbar = ({handleShow}) => {
                     </li>
                     <li>
                       <Link
-                        href="#"
+                        href="https://www.instagram.com/redtuf_technologies"
                         className="t-link social-icon social-icon--xs clr-heading :clr-base lg-text">
                         <FaInstagram />
                       </Link>
                     </li>
                     <li>
                       <Link
-                        href="#"
+                        href="https://www.linkedin.com/company/redtuf-technologies/"
                         className="t-link social-icon social-icon--xs clr-heading :clr-base lg-text">
                         <FaLinkedinIn />
                       </Link>
