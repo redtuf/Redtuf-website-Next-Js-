@@ -102,6 +102,8 @@ const home_2 = () => {
 
       {/*  Contact Form Modal --> */}
       <ContactFormModal show={show}  handleClose={handleClose} />
+      {/* <!-- Start of HubSpot Embed Code --> */}
+      <script type="text/javascript" id="hs-script-loader" async defer src="//js-na1.hs-scripts.com/43827676.js"></script>
     </>
   );
 };
