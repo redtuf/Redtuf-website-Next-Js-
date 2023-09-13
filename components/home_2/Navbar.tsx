@@ -266,7 +266,7 @@ const Navbar = ({handleShow}) => {
 
                   {/* Technology Menu */}
                   <li className="mega-menu--container">
-                    <Link href="/" className="primary-menu__link has-megamenu">
+                    <Link href="/technology" className="primary-menu__link has-megamenu">
                       Technology
                     </Link>
                     <ul className="list mega-menu">
@@ -277,7 +277,7 @@ const Navbar = ({handleShow}) => {
                         <ul className="list mega-menu__list">
                           <li>
                             <Link
-                              href="#"
+                              href="/web-design"
                               className="mega-menu__link">
                               {" "}
                               Web Design{" "}
@@ -285,7 +285,7 @@ const Navbar = ({handleShow}) => {
                           </li>
                           <li>
                             <Link
-                              href="#"
+                              href="/ui-ux"
                               className="mega-menu__link">
                               {" "}
                               UI/UX Design{" "}
@@ -293,16 +293,16 @@ const Navbar = ({handleShow}) => {
                           </li>
                           <li>
                             <Link
-                              href="#"
+                              href="/web-app"
                               className="mega-menu__link">
                               {" "}
                               Web Application Developement{" "}
                             </Link>
                           </li>
                           <li>
-                            <Link href="#" className="mega-menu__link">
+                            <Link href="/app-mentence" className="mega-menu__link">
                               {" "}
-                              Application Mentenance{" "}
+                              Application Mentence{" "}
                             </Link>
                           </li>
                         </ul>
@@ -311,14 +311,14 @@ const Navbar = ({handleShow}) => {
                         <span className="mega-menu__title">Digital Marketing</span>
                         <ul className="list mega-menu__list">
                           <li>
-                            <Link href="#" className="mega-menu__link">
+                            <Link href="/social-media-marketing" className="mega-menu__link">
                               {" "}
                               Social Media Marketing{" "}
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="#"
+                              href="/seo"
                               className="mega-menu__link">
                               {" "}
                               SEO{" "}
@@ -326,7 +326,7 @@ const Navbar = ({handleShow}) => {
                           </li>
                           <li>
                             <Link
-                              href="#"
+                              href="/google-ads"
                               className="mega-menu__link">
                               {" "}
                               Google Ads{" "}
@@ -334,7 +334,7 @@ const Navbar = ({handleShow}) => {
                           </li>
                           <li>
                             <Link
-                              href="#"
+                              href="/email"
                               className="mega-menu__link">
                               {" "}
                               E-Mail Service{" "}
@@ -347,15 +347,15 @@ const Navbar = ({handleShow}) => {
                         <ul className="list mega-menu__list">
                           <li>
                             <Link
-                              href="#"
+                              href="/saas-development"
                               className="mega-menu__link">
                               {" "}
-                              SaaS Developement{" "}
+                              SaaS Development{" "}
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="#"
+                              href="/cloud-migration"
                               className="mega-menu__link">
                               {" "}
                               Cloud Migration{" "}
@@ -363,14 +363,14 @@ const Navbar = ({handleShow}) => {
                           </li>
                           <li>
                             <Link
-                              href="#"
+                              href="/cloud-managed-service"
                               className="mega-menu__link">
                               {" "}
                               Cloud Managed Service{" "}
                             </Link>
                           </li>
                           <li>
-                            <Link href="#" className="mega-menu__link">
+                            <Link href="/ipaas-rpa" className="mega-menu__link">
                               {" "}
                               iPaas and RPA{" "}
                             </Link>
@@ -382,21 +382,21 @@ const Navbar = ({handleShow}) => {
                         <ul className="list mega-menu__list">
                           <li>
                             <Link
-                              href="#"
+                              href="/app-development"
                               className="mega-menu__link">
                               {" "}
-                              App Developement{" "}
+                              App Development{" "}
                             </Link>
                           </li>
                           <li>
-                            <Link href="#" className="mega-menu__link">
+                            <Link href="/training-project-management" className="mega-menu__link">
                               {" "}
                               Training & Project Management{" "}
                             </Link>
                           </li>
                           <li>
                             <Link
-                              href="#"
+                              href="/consulting"
                               className="mega-menu__link">
                               {" "}
                               Consulting{" "}
@@ -404,7 +404,7 @@ const Navbar = ({handleShow}) => {
                           </li>
                           <li>
                             <Link
-                              href="#"
+                              href="/resource-outsourcing"
                               className="mega-menu__link">
                               {" "}
                               Resource Outsourcing{" "}
