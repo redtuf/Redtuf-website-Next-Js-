@@ -58,7 +58,7 @@ const technology = () => {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h3 className="clr-light mb-3"> Technology </h3>
+              <h3 className="clr-light mb-3"> App Maintenance </h3>
               <ul className="list list-row flex-wrap breadcrumb-list">
                 <li>
                   <Link
@@ -70,19 +70,18 @@ const technology = () => {
                 </li>
                 <li className="">
                   <Link
-                    href="#"
+                    href="/technology"
                     className="d-inline-block t-link clr-light :clr-accent">
                     Technology
                   </Link>
                 </li>
-                {/* <li className="">
+                <li className="">
                   <Link
                     href="#"
                     className="d-inline-block t-link clr-light :clr-accent">
-                    {" "}
-                    Services Details - 01{" "}
+                    App Maintenance
                   </Link>
-                </li> */}
+                </li>
                 <li className="d-none">
                   <Link
                     href="#"
@@ -98,26 +97,17 @@ const technology = () => {
         <div className="container">
           <div className="row g-4">
             <div className="col-md-7 col-xl-5">
-              <h2> Web Development Services </h2>
+              <h2> App Maintenance </h2>
             </div>
             <span className="w-100"></span>
             <div className="col-md-6">
               <p>
-                {" "}
-                We are a web development company. We provide JavaScript and PHP
-                Development. Let us help you build a great product by using
-                frameworks like Symfony, Laravel, React, Vue.js, Node.js.{" "}
+              At Redtuf, we understand that launching a mobile or web application is just the beginning of your digital journey. To ensure the continued success of your app, it's crucial to invest in regular maintenance and updates. Our App Maintenance Services are designed to keep your app running smoothly, secure, and up-to-date in the ever-evolving digital landscape.Our expert team is dedicated to identifying and resolving issues promptly to enhance the user experience.We continually optimize your app to ensure it runs smoothly on various devices and platforms.
               </p>
             </div>
             <div className="col-md-6">
               <p className="mb-8">
-                {" "}
-                We have gathered strong experience in creating cutting-edge web
-                applications. By using the best web development technologies and
-                the right tools, our team can develop a product with a perfect
-                market fit. Building a product is a complex process, and we will
-                assist you during every step of this journey, from visualizing
-                your idea to creation and app maintenance.{" "}
+              We ensure your app remains regular security assessments to identify and mitigate potential vulnerabilities.ompatible with the latest technologies.Stay competitive by adding new features and functionalities that delight your users. We help you adapt to changing market demands.We monitor your app for issues, prioritize them, and provide timely fixes.Continuous monitoring to detect and resolve performance bottlenecks.Ensure your app works flawlessly on the latest devices and operating systems.Implement new features and improvements to keep users engaged and satisfied.Keep your app's content fresh and up-to-date to retain user interest.We don't just fix problems; we prevent them from happening in the first place. Our support team is available 24/7 to address your concerns and queries.
               </p>
               <Link
                 href="contact-us-1"
@@ -133,7 +123,7 @@ const technology = () => {
           </div>
         </div>
       </div>
-      <div className="service-section">
+      <div className="service-section app-maint">
         <div className="service-section__content bg-base-800">
           <div className="container">
             <div className="row">

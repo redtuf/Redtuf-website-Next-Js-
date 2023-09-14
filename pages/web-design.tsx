@@ -57,7 +57,7 @@ const technology = () => {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h3 className="clr-light mb-3"> Technology </h3>
+              <h3 className="clr-light mb-3"> Web Design </h3>
               <ul className="list list-row flex-wrap breadcrumb-list">
                 <li>
                   <Link
@@ -69,19 +69,18 @@ const technology = () => {
                 </li>
                 <li className="">
                   <Link
-                    href="#"
+                    href="/technology"
                     className="d-inline-block t-link clr-light :clr-accent">
                     Technology
                   </Link>
                 </li>
-                {/* <li className="">
+                <li className="">
                   <Link
                     href="#"
                     className="d-inline-block t-link clr-light :clr-accent">
-                    {" "}
-                    Services Details - 01{" "}
+                    Web Design
                   </Link>
-                </li> */}
+                </li>
                 <li className="d-none">
                   <Link
                     href="#"
@@ -97,26 +96,17 @@ const technology = () => {
         <div className="container">
           <div className="row g-4">
             <div className="col-md-7 col-xl-5">
-              <h2> Web Development Services </h2>
+              <h2> Web Design Services </h2>
             </div>
             <span className="w-100"></span>
             <div className="col-md-6">
               <p>
-                {" "}
-                We are a web development company. We provide JavaScript and PHP
-                Development. Let us help you build a great product by using
-                frameworks like Symfony, Laravel, React, Vue.js, Node.js.{" "}
+              We are a company that develops websites. We offer PHP and JavaScript development. With the aid of frameworks like Symfony, Laravel, React, Vue.js, and Node.js, let us assist you in creating a fantastic product.
               </p>
             </div>
             <div className="col-md-6">
               <p className="mb-8">
-                {" "}
-                We have gathered strong experience in creating cutting-edge web
-                applications. By using the best web development technologies and
-                the right tools, our team can develop a product with a perfect
-                market fit. Building a product is a complex process, and we will
-                assist you during every step of this journey, from visualizing
-                your idea to creation and app maintenance.{" "}
+              We have accumulated significant expertise in developing cutting-edge online apps. Our team can create a product that perfectly fits the market by utilising the greatest web development technology and the appropriate tools. We will help you at every stage of this journey, from visualising your idea to production and app maintenance, as building a product is a complicated process.
               </p>
               <Link
                 href="contact-us-1"
@@ -156,30 +146,18 @@ const technology = () => {
                   </li>
                 </ul>
                 <p className="clr-light mb-8 xxl-text">
-                  {" "}
-                  Are you a startup brand, well established company, in the UK
-                  or worldwide? It doesn't matter. We work with a range of
-                  clients.{" "}
+                Are you a new or well-established brand with a presence only in the UK or elsewhere? It is irrelevant. We collaborate with a variety of clients.
                 </p>
                 <p className="clr-light mb-5">
-                  {" "}
-                  We know it’s hard for brands to setup an online experience,
-                  and budgets can be tight. We like to help new brands grow and
-                  work in a long term relationship.{" "}
+                We are aware that setting up an internet presence for a brand may be challenging and expensive. We enjoy working with new brands over the long run and assisting them in growing.
                 </p>
                 <p className="clr-light mb-5">
-                  {" "}
-                  And we also have the experience of designing, building,
-                  testing and launching websites for large global organisations.
-                  We can be an extension of your in-house marketing team or take
-                  advantage of our expert team to be your complete digital{" "}
+                Additionally, we have expertise creating, testing, and deploying websites for huge international corporations.
+                We can work in tandem with your internal marketing team or you can hire our knowledgeable staff to handle all of your digital marketing needs.
                 </p>
                 <p className="clr-light mb-12">
-                  {" "}
-                  And we also have the experience of designing, building,
-                  testing and launching websites for large global organisations.
-                  We can be an extension of your in-house marketing team or take
-                  advantage of our expert team to be your complete digital{" "}
+                We also have expertise designing, developing, testing, and deploying websites for huge international organisations.
+                Using our knowledgeable team as a full-service digital marketing agency or as an addition to your internal marketing staff
                 </p>
                 <Link
                   href="contact-us-1"

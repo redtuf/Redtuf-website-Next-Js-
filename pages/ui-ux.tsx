@@ -57,7 +57,7 @@ const technology = () => {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h3 className="clr-light mb-3"> Technology </h3>
+              <h3 className="clr-light mb-3"> Ui/Ux </h3>
               <ul className="list list-row flex-wrap breadcrumb-list">
                 <li>
                   <Link
@@ -69,19 +69,18 @@ const technology = () => {
                 </li>
                 <li className="">
                   <Link
-                    href="#"
+                    href="/technology"
                     className="d-inline-block t-link clr-light :clr-accent">
                     Technology
                   </Link>
                 </li>
-                {/* <li className="">
+                <li className="">
                   <Link
                     href="#"
                     className="d-inline-block t-link clr-light :clr-accent">
-                    {" "}
-                    Services Details - 01{" "}
+                    Ui/Ux
                   </Link>
-                </li> */}
+                </li>
                 <li className="d-none">
                   <Link
                     href="#"
@@ -97,26 +96,17 @@ const technology = () => {
         <div className="container">
           <div className="row g-4">
             <div className="col-md-7 col-xl-5">
-              <h2> Web Development Services </h2>
+              <h2> Ui/Ux Services </h2>
             </div>
             <span className="w-100"></span>
             <div className="col-md-6">
               <p>
-                {" "}
-                We are a web development company. We provide JavaScript and PHP
-                Development. Let us help you build a great product by using
-                frameworks like Symfony, Laravel, React, Vue.js, Node.js.{" "}
+              Elevate User Experiences with Expert UI/UX Development Services.Crafting intuitive and visually stunning digital experiences to engage and delight your audience.We are a passionate team of UI/UX designers and developers dedicated to creating user-centric digital solutions.
               </p>
             </div>
             <div className="col-md-6">
               <p className="mb-8">
-                {" "}
-                We have gathered strong experience in creating cutting-edge web
-                applications. By using the best web development technologies and
-                the right tools, our team can develop a product with a perfect
-                market fit. Building a product is a complex process, and we will
-                assist you during every step of this journey, from visualizing
-                your idea to creation and app maintenance.{" "}
+              We combine creativity with user psychology to design interfaces that resonate with your audience and drive results.Explore our diverse portfolio of successful projects that showcase our skills and versatility. From wireframes to pixel-perfect designs, we create visually appealing interfaces that captivate users.We focus on usability, accessibility, and intuitive navigation to ensure a seamless user experience. Crafting mobile experiences that engage users on iOS and Android platforms.Designing web applications that are both functional and aesthetically pleasing is our most stunning technique.we Optimize online shopping experiences to boost conversion rates and customer satisfaction.
               </p>
               <Link
                 href="contact-us-1"
@@ -132,7 +122,7 @@ const technology = () => {
           </div>
         </div>
       </div>
-      <div className="service-section">
+      <div className="service-section ui-ux">
         <div className="service-section__content bg-base-800">
           <div className="container">
             <div className="row">

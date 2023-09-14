@@ -57,7 +57,7 @@ const technology = () => {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h3 className="clr-light mb-3"> Technology </h3>
+              <h3 className="clr-light mb-3"> App Development </h3>
               <ul className="list list-row flex-wrap breadcrumb-list">
                 <li>
                   <Link
@@ -69,19 +69,18 @@ const technology = () => {
                 </li>
                 <li className="">
                   <Link
-                    href="#"
+                    href="/technology"
                     className="d-inline-block t-link clr-light :clr-accent">
                     Technology
                   </Link>
                 </li>
-                {/* <li className="">
+                <li className="">
                   <Link
                     href="#"
                     className="d-inline-block t-link clr-light :clr-accent">
-                    {" "}
-                    Services Details - 01{" "}
+                    App Development
                   </Link>
-                </li> */}
+                </li>
                 <li className="d-none">
                   <Link
                     href="#"
@@ -97,26 +96,17 @@ const technology = () => {
         <div className="container">
           <div className="row g-4">
             <div className="col-md-7 col-xl-5">
-              <h2> Web Development Services </h2>
+              <h2> App Development Services </h2>
             </div>
             <span className="w-100"></span>
             <div className="col-md-6">
               <p>
-                {" "}
-                We are a web development company. We provide JavaScript and PHP
-                Development. Let us help you build a great product by using
-                frameworks like Symfony, Laravel, React, Vue.js, Node.js.{" "}
+              Welcome to our Application Development Services! At Redtuf, we are passionate about transforming your ideas into dynamic and functional web applications. Our team of experienced developers and designers is here to collaborate with you, delivering custom solutions that drive innovation and help you achieve your business goals.
               </p>
             </div>
             <div className="col-md-6">
               <p className="mb-8">
-                {" "}
-                We have gathered strong experience in creating cutting-edge web
-                applications. By using the best web development technologies and
-                the right tools, our team can develop a product with a perfect
-                market fit. Building a product is a complex process, and we will
-                assist you during every step of this journey, from visualizing
-                your idea to creation and app maintenance.{" "}
+              At Redtuf, we understand that every project is unique. Our approach to web application development is tailored to meet your specific needs.We begin by diving deep into your project requirements. Our team works closely with you to understand your goals, target audience, and the problems your web application will solve.Our talented designers create intuitive and visually appealing user interfaces that enhance the user experience.Our developers use cutting-edge technologies to bring your web application to life.  Before launching your web application, we rigorously test it to ensure it's bug-free and performs flawlessly.Once your web application is ready, we handle the deployment process, making it accessible to your users. We also offer ongoing maintenance and support to keep your application running smoothly.
               </p>
               <Link
                 href="contact-us-1"
@@ -132,7 +122,7 @@ const technology = () => {
           </div>
         </div>
       </div>
-      <div className="service-section">
+      <div className="service-section app-devplmnt">
         <div className="service-section__content bg-base-800">
           <div className="container">
             <div className="row">
