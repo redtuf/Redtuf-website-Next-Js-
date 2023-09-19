@@ -6,8 +6,9 @@ import Navbar from "@/components/home_2/Navbar";
 import { useState,useEffect } from 'react';
 import Footer from "@/components/home_2/Footer";
 import ContactFormModal from "@/components/ContactFormModal";
+import Head from "next/head";
 
-const technology = () => {
+const googleAds = () => {
   const [scrolled, setScrolled] = useState(false);
 
   // state for modal
@@ -34,6 +35,12 @@ const technology = () => {
   // }, []);
   return (
     <>
+    <Head>
+        <title>Redtuf - IT Solution & Services</title>
+        <meta name="description" content=" IT Solution & Services" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/images/favicon-rf.png" />
+    </Head>
     {/* whats app integration */}
     <div className={`whats-app-icon ${scrolled ? "d-block" : "d-none"}`}> 
       <Link href="https://wa.me/+919078500888?text=I%27d%20like%20to%20chat%20with%20you" rel="nofollow noopener" target="_blank">
@@ -1212,4 +1219,4 @@ const technology = () => {
   );
 };
 
-export default technology;
+export default googleAds;

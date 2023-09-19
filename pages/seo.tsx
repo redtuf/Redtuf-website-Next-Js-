@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Head from "next/head";
 import Feedback_3 from "@/components/Feedback_3";
 import Letstalk from "@/components/Letstalk";
 import CoreValue from "@/components/CoreValue";
@@ -7,7 +8,7 @@ import { useState,useEffect } from 'react';
 import Footer from "@/components/home_2/Footer";
 import ContactFormModal from "@/components/ContactFormModal";
 
-const technology = () => {
+const seo = () => {
   const [scrolled, setScrolled] = useState(false);
 
   // state for modal
@@ -34,6 +35,12 @@ const technology = () => {
   // }, []);
   return (
     <>
+    <Head>
+        <title>Redtuf - IT Solution & Services</title>
+        <meta name="description" content=" IT Solution & Services" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/images/favicon-rf.png" />
+    </Head>
     {/* whats app integration */}
     <div className={`whats-app-icon ${scrolled ? "d-block" : "d-none"}`}> 
       <Link href="https://wa.me/+919078500888?text=I%27d%20like%20to%20chat%20with%20you" rel="nofollow noopener" target="_blank">
@@ -58,7 +65,7 @@ const technology = () => {
         <div className="container">
           <div className="row">
             <div className="col-12">
-              <h3 className="clr-light mb-3"> Technology </h3>
+              <h3 className="clr-light mb-3"> SEO </h3>
               <ul className="list list-row flex-wrap breadcrumb-list">
                 <li>
                   <Link
@@ -70,19 +77,18 @@ const technology = () => {
                 </li>
                 <li className="">
                   <Link
-                    href="#"
+                    href="/technology"
                     className="d-inline-block t-link clr-light :clr-accent">
                     Technology
                   </Link>
                 </li>
-                {/* <li className="">
+                <li className="">
                   <Link
                     href="#"
                     className="d-inline-block t-link clr-light :clr-accent">
-                    {" "}
-                    Services Details - 01{" "}
+                    SEO
                   </Link>
-                </li> */}
+                </li>
                 <li className="d-none">
                   <Link
                     href="#"
@@ -98,26 +104,17 @@ const technology = () => {
         <div className="container">
           <div className="row g-4">
             <div className="col-md-7 col-xl-5">
-              <h2> Web Development Services </h2>
+              <h2> SEO </h2>
             </div>
             <span className="w-100"></span>
             <div className="col-md-6">
               <p>
-                {" "}
-                We are a web development company. We provide JavaScript and PHP
-                Development. Let us help you build a great product by using
-                frameworks like Symfony, Laravel, React, Vue.js, Node.js.{" "}
+              Search Engine Optimization (SEO) is a set of techniques and strategies used to enhance a website's organic (non-paid) visibility on search engines like Google, Bing, and Yahoo. The primary goal of SEO is to improve a website's ranking in search engine results, which can lead to increased traffic, better user engagement, and higher conversion rates.
               </p>
             </div>
             <div className="col-md-6">
               <p className="mb-8">
-                {" "}
-                We have gathered strong experience in creating cutting-edge web
-                applications. By using the best web development technologies and
-                the right tools, our team can develop a product with a perfect
-                market fit. Building a product is a complex process, and we will
-                assist you during every step of this journey, from visualizing
-                your idea to creation and app maintenance.{" "}
+              SEO is vital for several reasons, Higher search engine rankings mean more people can find your website when searching for relevant keywords.Websites that appear at the top of search results are often perceived as more credible and trustworthy by users.SEO optimization often involves improving website structure, navigation, and content, leading to a better user experience. Compared to paid advertising, SEO can be a cost-effective way to attract organic traffic over the long term.Keyword research is a fundamental step in SEO. It involves identifying the keywords and phrases that your target audience uses when searching for products, services, or information related to your website.
               </p>
               <Link
                 href="contact-us-1"
@@ -133,7 +130,7 @@ const technology = () => {
           </div>
         </div>
       </div>
-      <div className="service-section">
+      <div className="service-section seo">
         <div className="service-section__content bg-base-800">
           <div className="container">
             <div className="row">
@@ -1212,4 +1209,4 @@ const technology = () => {
   );
 };
 
-export default technology;
+export default seo;
