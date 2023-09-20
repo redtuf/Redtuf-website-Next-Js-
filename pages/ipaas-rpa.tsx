@@ -135,7 +135,7 @@ const ipaasRpa = () => {
           <div className="container">
             <div className="row">
               <div className="col-lg-6 col-xl-5 z-1">
-                <ul className="list list-row flex-wrap gap-6 mb-8">
+                {/* <ul className="list list-row flex-wrap gap-6 mb-8">
                   <li className="d-flex align-items-center gap-3">
                     <img
                       src="/images/icon-73.png"
@@ -158,7 +158,7 @@ const ipaasRpa = () => {
                   Are you a startup brand, well established company, in the UK
                   or worldwide? It doesn't matter. We work with a range of
                   clients.{" "}
-                </p>
+                </p> */}
                 <p className="clr-light mb-5">
                   {" "}
                   We know it’s hard for brands to setup an online experience,
@@ -381,7 +381,7 @@ const ipaasRpa = () => {
           </div>
         </div>
       </div>
-      <div className="section">
+      {/* <div className="section">
         <div className="section__gap-bottom">
           <div className="container">
             <div className="row justify-content-center">
@@ -567,9 +567,9 @@ const ipaasRpa = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* <!-- Latest Projects --> */}
-      <div className="section">
+      {/* <div className="section">
         <div className="section__gap-bottom">
           <div className="container-md">
             <div className="row g-4 align-items-xl-end">
@@ -1193,7 +1193,7 @@ const ipaasRpa = () => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
       {/* <!-- Testimonial --> */}
       <Feedback_3 />
       {/* <!-- Team Core Value --> */}
