@@ -39,7 +39,7 @@ const Hero = () => {
       <SwiperSlide>
         <div
           className="swiper-slide hero-slider-1__slide hero-slider-1__slide-1"
-          style={{ backgroundImage: "url(/images/hero-slider-1-bg.png)" }}>
+          style={{ backgroundImage: "url(/images/bg-1.png)" }}>
           <div className="container">
             <div className="row">
               <div className="col-lg-10 col-xl-7 col-xxl-8">
