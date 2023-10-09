@@ -414,6 +414,11 @@ const Navbar = ({handleShow}) => {
                       </li>
                     </ul>
                   </li>
+                  <li>
+                    <Link href="/training-project-management" className="primary-menu__link">
+                      Training
+                    </Link>
+                  </li>
                   
                   <li>
                     <Link href="contact-us-1" className="primary-menu__link">

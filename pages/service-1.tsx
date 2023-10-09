@@ -9,6 +9,8 @@ import Footer from "@/components/home_2/Footer";
 import ContactFormModal from "@/components/ContactFormModal";
 
 const service_1 = () => {
+
+  const [scrolled, setScrolled] = useState(false);
     // state for modal
     const [show, setShow] = useState(false);
 
@@ -17,9 +19,35 @@ const service_1 = () => {
 
   useEffect(() => {
     document.documentElement.setAttribute("dir", "ltr");
+    document.addEventListener("scroll", () => {
+      if (window.scrollY > 100) {
+        setScrolled(true);
+      } else {
+        setScrolled(false);
+      }
+    });
   }, []);
+  
+  const backtoTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
   return (
     <>
+      <div className={`whats-app-icon ${scrolled ? "d-block" : "d-none"}`}> 
+      <Link href="https://wa.me/+919078500888?text=I%27d%20like%20to%20chat%20with%20you" rel="nofollow noopener" target="_blank">
+        <img src="/images/wp-icon.svg" className="whats-app-icon_pic" alt="" />
+      </Link>
+      </div>
+      <div
+        onClick={backtoTop}
+        className={`back-to-top ${scrolled ? "d-block" : "d-none"}`}>
+        <span className="back-top">
+          <span className="material-symbols-outlined mat-icon fw-300 d-grid">
+            {" "}
+            keyboard_double_arrow_up{" "}
+          </span>
+        </span>
+      </div>
       {/* Navbar Section */}
       <Navbar handleShow={handleShow} />
       {/* Banner section */}
