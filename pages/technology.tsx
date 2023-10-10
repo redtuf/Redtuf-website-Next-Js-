@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Head from "next/head";
 import Feedback_3 from "@/components/Feedback_3";
 import Letstalk from "@/components/Letstalk";
 import CoreValue from "@/components/CoreValue";
@@ -34,6 +35,12 @@ const technology = () => {
   // }, []);
   return (
     <>
+      <Head>
+        <title>Technology || Redtuf - IT Solution & Services</title>
+        <meta name="description" content=" IT Solution & Services" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/images/favicon-rf.png" />
+      </Head>
     {/* whats app integration */}
     <div className={`whats-app-icon ${scrolled ? "d-block" : "d-none"}`}> 
       <Link href="https://wa.me/+919078500888?text=I%27d%20like%20to%20chat%20with%20you" rel="nofollow noopener" target="_blank">

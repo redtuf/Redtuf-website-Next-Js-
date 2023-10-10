@@ -344,7 +344,7 @@ const Footer = () => {
                 <p className="clr-light text-center text-md-start">
                   {" "}
                   Copyright 2023 <Link
-                     href="/" style={{color: "white"}}>Redtuf Technologies PVT. LTD.</Link> All Rights Reserved.{" "}
+                     href="/" style={{color: "white"}}>Redtuf Technologies Pvt. Ltd.</Link> All Rights Reserved.{" "}
                 </p>
               </div>
               <div className="col-md-6">

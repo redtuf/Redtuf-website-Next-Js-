@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Head from "next/head";
 // import Testimonial_slider_1 from "@/components/Testimonial-slider-1";
 // import Pricing from "@/components/Pricing";
 import Technologies from "@/components/Technologies";
@@ -33,6 +34,12 @@ const service_1 = () => {
   };
   return (
     <>
+      <Head>
+        <title>Service || Redtuf - IT Solution & Services</title>
+        <meta name="description" content=" IT Solution & Services" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/images/favicon-rf.png" />
+      </Head>
       <div className={`whats-app-icon ${scrolled ? "d-block" : "d-none"}`}> 
       <Link href="https://wa.me/+919078500888?text=I%27d%20like%20to%20chat%20with%20you" rel="nofollow noopener" target="_blank">
         <img src="/images/wp-icon.svg" className="whats-app-icon_pic" alt="" />

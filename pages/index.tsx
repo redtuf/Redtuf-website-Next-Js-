@@ -42,7 +42,7 @@ const home_2 = () => {
   return (
     <>
       <Head>
-        <title>Redtuf - IT Solution & Services</title>
+        <title>Home || Redtuf - IT Solution & Services</title>
         <meta name="description" content=" IT Solution & Services" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/images/favicon-rf.png" />
